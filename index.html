@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="name.css">
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/calculator.js"></script>
+        <title>Employee Salary Calculator</title>
+    </head>
+    <body>
+        <h1>Monthly Cost Calculator</h1> 
+        <div id="inputs">
+            <input type="text" id="employeeFirstName" placeholder="Employee First Name"></input>
+            <input type="text" id="employeeLastName" placeholder="Employee Last Name"></input>
+            <input type="text" id="employeeIDNumber" placeholder="Employee ID Number"></input>
+            <input type="text" id="employeeJobTitle" placeholder="Employee Job Title"></input>
+            <input type="number" id="employeeSalary" placeholder="Employee Salary"></input>
+            <button  id="addEmployee">Add Employee</button>
+        </div>
+
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID Number</th>
+                <th>Job Position</th>
+                <th>Annual Salary</th>
+                <th>Actions</th>
+            </tr>
+            <tbody id="employeeInformationOut">
+
+            </tbody>
+        </table>
+        <h2 id="totalCost">Total Cost of Employees: </h2>
+    </body>
+</html>

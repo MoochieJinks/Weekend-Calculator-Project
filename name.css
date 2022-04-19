@@ -1,0 +1,47 @@
+body {
+    max-width:  1920px;
+	margin-left:  auto;
+	margin-right:  auto;
+	background-color: #d9d9db;
+}
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+td {
+    padding: 8px 15px;
+    border: 1px solid darkgray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+}
+#inputs {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    justify-content: space-between;
+    max-width: 75%;
+    padding-left: 180px;
+}
+h2 {
+    text-align: right;
+    padding-right: 36px;
+}
+.overBudget{
+   background-color: red;
+}
+.underBudget{
+    background-color: greenyellow;
+}
